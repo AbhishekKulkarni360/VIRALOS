@@ -1,0 +1,27 @@
+{
+  "name": "viralos-backend",
+  "version": "1.0.0",
+  "description": "VIRALOS AI Creator Strategist Backend API",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "build": "tsc",
+    "test": "jest --coverage",
+    "lint": "eslint src",
+    "format": "prettier --write src"
+  },
+  "keywords": [
+    "creator",
+    "viral",
+    "AI",
+    "strategist"
+  ],
+  "author": "Abhishek Kulkarni",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
